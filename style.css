@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+}
+
+:root{
+    --background-color1: #12131A;
+    /* color textarea */
+    --background-color2: #1C1F2A;
+    /* color texto principal */
+    --text1-color: #F2F2F7;
+    /* color texto secundario */
+    --text2-color: #B4B7C9;
+    /* color progress bar */
+    --progressbar-color: #D19BFF;
+    /* color border*/
+    --border-color: #2A2D3A;
+    /* fuente */
+    --primary-font: "Space Grotesk", "Inter";
+}
+
+
