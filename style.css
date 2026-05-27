@@ -19,5 +19,19 @@
     /* fuente */
     --primary-font: "Space Grotesk", "Inter";
 }
+body{
+    background-color: #f3f3f2;
+    height: 100vh;
+}
+img{
+    width: 50px;
+}
 
+.card{
+    background-color: var(--background-color1);
+    width: 700px;
+    position: relative;
+    top:50px;
+    left:100px
 
+}
