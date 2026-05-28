@@ -45,6 +45,7 @@ img{
 .header{
     display: flex;
     align-items: center;
+    gap: 10px;
     
    
 
@@ -53,9 +54,8 @@ img{
 
 .logo{
 
-width:60px;
-padding: 0;
-margin: 0;
+width:40px;
+
 }
 
 
@@ -69,12 +69,13 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     }
 
 .modeswitch img{
  
-    width: 100%;
-    height: 100%;
+    width: 25px
+    
    
 }
 
@@ -99,7 +100,29 @@ margin: 0;
 
 }
 
-
+.options{
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
     
+.options p {
+    margin-left: auto;
+}
 
-
+.options label {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.options input {
+     appearance: none;
+     border: solid 1px var(--text2-color);
+     width: 15px;
+     height: 15px;
+     border-radius: 5px;
+    
+}
