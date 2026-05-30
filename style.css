@@ -25,20 +25,15 @@ body{
     background-color: #f3f3f2;
     height: 100vh;
 }
-img{ 
-    
-    display: block;
-    max-width: 100%;
-}
 
 
 .card{
     background-color: var(--background-color1);
-    width: 700px;
+    width: 600px;
     position: relative;
     top:50px;
     left:100px;
-    padding: 10px 30px;
+    padding: 20px 30px;
 
 }
 
@@ -46,6 +41,7 @@ img{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 13px;
     
    
 
@@ -54,7 +50,7 @@ img{
 
 .logo{
 
-width:40px;
+width:35px;
 
 }
 
@@ -74,16 +70,15 @@ width:40px;
 
 .modeswitch img{
  
-    width: 25px
-    
-   
+    width: 25px  
 }
+
 
 .text h1{
     color: var(--text1-color);
     text-align: center;
-    font-size: 55px;
-    margin: 20px 70px;
+    font-size: 45px;
+    margin: 20px 80px;
     line-height: 1;
 }
 
@@ -94,7 +89,7 @@ width:40px;
     padding: 15px;
     background-color: var(--background-color2);
     border-color: var(--border-color);
-    font-size: 15px;
+    font-size: 14px;
      resize: none;
      margin: 15px 0;
 
@@ -103,7 +98,7 @@ width:40px;
 .options{
     display: flex;
     gap: 15px;
-    font-size: 13px;
+    font-size: 11px;
     margin-bottom: 30px;
 }
     
@@ -113,7 +108,7 @@ width:40px;
 
 .options label {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     cursor: pointer;
     align-items: center;
     
@@ -130,6 +125,7 @@ width:40px;
 .results{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 
@@ -137,11 +133,12 @@ width:40px;
     color: var(--background-color1);
 }
 .results h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .results p{
     font-weight:600;
+    font-size: 15px;
 }
 
 .result1{
@@ -158,8 +155,8 @@ width:40px;
 
 
 .results article{
-    width: 200px;
-    height: 130px;
+    width: 30%;
+    height: 110px;
     border-radius: 15px;
     display: flex;
    flex-direction: column;
@@ -179,18 +176,20 @@ width:40px;
 ul{
     list-style: none;
     text-transform: uppercase;
+    font-size: 12px;
 }
 li{
-    margin: 12px 0;
+    
     display: flex;
-    gap: 15px;
+    
     align-items: center;
+    margin: 10px 0;
 }
 
 .bar{
     background-color: var(--background-color2);
-    width: 500px;
-    height: 15px;
+    width: 80%;
+    height: 10px;
     align-items: center;
     border-radius: 15px;
     overflow: hidden;
@@ -244,6 +243,8 @@ li:nth-child(5) .fill{
     border-radius: 10px;
     align-items: center;
     cursor: pointer;
+    margin-bottom: 40px;
+    font-weight: 600;
     
 }
 
