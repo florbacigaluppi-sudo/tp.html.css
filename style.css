@@ -66,6 +66,7 @@ width:35px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: .3s;
     }
 
 .modeswitch img{
@@ -166,6 +167,7 @@ width:35px;
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: .3s;
 }
 
 .LetterDensity h4{
@@ -245,10 +247,22 @@ li:nth-child(5) .fill{
     cursor: pointer;
     margin-bottom: 40px;
     font-weight: 600;
+    transition: .3s;
     
 }
 
 .LetterDensity button img{
     width: 15px;
     margin-left: auto;
+}
+
+
+button:hover  {
+    background-color: var(--border-color);
+    transform: scale(1.1);
+
+}
+
+.results article:hover{
+    transform: scale(1.1);
 }
