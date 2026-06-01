@@ -4,6 +4,7 @@
     font-family: var(--primary-font);
     color: var(--text2-color);
     box-sizing: border-box;
+   
 }
 
 :root{
@@ -23,16 +24,16 @@
 }
 body{
     background-color: #f3f3f2;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 
 .card{
     background-color: var(--background-color1);
     width: 600px;
-    position: relative;
-    top:50px;
-    left:100px;
     padding: 20px 30px;
 
 }
@@ -78,7 +79,7 @@ width:35px;
 .text h1{
     color: var(--text1-color);
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     margin: 20px 80px;
     line-height: 1;
 }
@@ -266,3 +267,51 @@ button:hover  {
 .results article:hover{
     transform: scale(1.1);
 }
+
+@media (max-width: 435px){
+    .card{
+        width: 100%;
+        height: fit-content;
+       
+    }
+
+    .text h1{
+        font-size: 30px;
+        margin: 20px 60px;
+    }
+    .text textarea{
+        font-size: 12px;
+    }
+
+    .options{
+    
+    font-size: 10px;
+   
+    
+}
+    .results{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .results article {
+        width: 50%;
+           }
+
+.results p{
+    font-size: 12px;
+}
+
+
+.LetterDensity h4{
+    font-size: 15px;
+
+}
+
+ul{
+    font-size: 10px;
+}
+.bar{
+    width: 75%;
+}
+    }
