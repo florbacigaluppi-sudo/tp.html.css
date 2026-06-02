@@ -276,8 +276,9 @@ button:hover  {
 @media (max-width: 435px){
     .card{
         width: 100%;
-        height: fit-content;
+        min-height: fit-content;
         margin-top: 0;
+        margin-bottom: 0;
        
     }
 
